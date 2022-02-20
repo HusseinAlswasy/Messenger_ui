@@ -1,22 +1,11 @@
-
 import 'package:flutter/material.dart';
 
-class UserModel{
-  final int id;
-  final String name;
-  final String phone;
-
-  UserModel({
-    required this.id,
-    required this.name,
-    required this.phone
-  });
-}
+import '../../models/user_models/user_model.dart';
 
 class UserScreen extends StatelessWidget {
 
   List<UserModel> users =[
-     UserModel(id: 1, name: 'Hussein Hassan', phone: '0102671008'),
+    UserModel(id: 1, name: 'Hussein Hassan', phone: '0102671008'),
     UserModel(id: 2, name: 'Hussein Hassan', phone: '0102671008'),
     UserModel(id: 3, name: 'Hussein Hassan', phone: '0102671008'),
     UserModel(id: 4, name: 'Hussein Hassan', phone: '0102671008'),
